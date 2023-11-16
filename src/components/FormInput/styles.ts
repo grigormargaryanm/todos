@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import {Form} from "antd";
+import styled from 'styled-components'
+import { Form } from 'antd'
 
 export const StyledFormItem = styled(Form.Item)`
   width: 100%;
@@ -16,4 +16,4 @@ export const StyledFormItem = styled(Form.Item)`
     border-radius: 10px 0 0 10px;
     border: none;
   }
-`;
+`

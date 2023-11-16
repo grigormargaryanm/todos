@@ -1,6 +1,5 @@
-import styled from "styled-components";
-import {Button} from "antd";
-
+import styled from 'styled-components'
+import { Button } from 'antd'
 
 export const ModalCancel: typeof Button = styled(Button)`
   background: #f6f6f8;
@@ -8,7 +7,7 @@ export const ModalCancel: typeof Button = styled(Button)`
     color: #000;
     opacity: 0.65;
   }
-`;
+`
 export const Footer = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -16,4 +15,4 @@ export const Footer = styled.div`
   > button:first-child {
     margin-right: 8px;
   }
-`;
+`

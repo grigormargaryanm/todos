@@ -1,21 +1,21 @@
-import {Dayjs} from "dayjs";
+import { Dayjs } from 'dayjs'
 
 export enum TodoStatus {
-    PENDING = 'Pending',
-    COMPLETED = 'Completed',
-    OVERDUE = 'Overdue',
-    REMOVED = 'Removed',
+  PENDING = 'Pending',
+  COMPLETED = 'Completed',
+  OVERDUE = 'Overdue',
+  REMOVED = 'Removed',
 }
 
 export enum Filter {
-    ALL = 'all',
-    REMOVED = 'removed',
+  ALL = 'all',
+  REMOVED = 'removed',
 }
 
 export interface ITodos {
-    id: string;
-    title: string;
-    status: TodoStatus;
-    description?: string;
-    deadline?: Dayjs;
+  id: string
+  title: string
+  status: TodoStatus
+  description?: string
+  deadline?: Dayjs
 }

@@ -32,4 +32,8 @@ styled-components
 
 swiper
 
+Eslint
+
+Prettier
+
 ```

@@ -1,11 +1,11 @@
-import styled from "styled-components";
-import {Button, Skeleton, Typography} from "antd";
-import {Swiper} from "swiper/react";
+import styled from 'styled-components'
+import { Button, Skeleton, Typography } from 'antd'
+import { Swiper } from 'swiper/react'
 
-const {Text} = Typography;
+const { Text } = Typography
 export const EditButton = styled(Button)`
   background: lightgray;
-`;
+`
 export const SwiperWrapper = styled(Swiper)`
   margin-bottom: 16px;
 
@@ -14,7 +14,7 @@ export const SwiperWrapper = styled(Swiper)`
     display: flex;
     height: auto;
   }
-`;
+`
 
 export const ActionsWrapper = styled.div`
   display: flex;
@@ -36,7 +36,7 @@ export const ActionsWrapper = styled.div`
   button:last-child {
     border-radius: 0 10px 10px 0;
   }
-`;
+`
 
 export const TodoWrapper = styled.div`
   display: flex;
@@ -44,16 +44,16 @@ export const TodoWrapper = styled.div`
   flex-direction: column;
   border: 1px solid lightgray;
   padding: 12px 16px;
-`;
+`
 
 export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
-`;
+`
 
 export const TextStyle = styled(Text)`
   margin-bottom: 12px;
-`;
+`
 export const SkeletonWrapper = styled.div`
   background-color: lightgray;
   border-radius: 10px;
@@ -62,7 +62,7 @@ export const SkeletonWrapper = styled.div`
   && li:not(:first-child) {
     margin-top: 12px;
   }
-`;
+`
 
 export const SkeletonColumn = styled(Skeleton)`
   margin-bottom: 2px;
@@ -71,4 +71,4 @@ export const SkeletonColumn = styled(Skeleton)`
     width: 64px;
     height: 64px;
   }
-`;
+`

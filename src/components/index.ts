@@ -1,2 +1,2 @@
-export {default as FormInput} from "./FormInput";
-export {default as StatusTag} from "./StatusTag";
+export { default as FormInput } from './FormInput'
+export { default as StatusTag } from './StatusTag'
